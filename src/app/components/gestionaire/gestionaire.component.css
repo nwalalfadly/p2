@@ -1,0 +1,6 @@
+.modal-sm {
+    max-width: 800px !important;
+}
+.modal-dialog.cascading-modal.modal-avatar .modal-header img {
+    width: 204px !important;
+}

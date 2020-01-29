@@ -15,6 +15,10 @@ import { Register1Component } from './contact/register1/register1.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TableComponent } from './components/table/table.component';
 import { SportComponent } from './components/sport/sport.component';
+import { ModalComponent } from './components/modal/modal.component';
+import { ExerciceComponent } from './components/exercice/exercice.component';
+import { ExercicecoachComponent } from './components/exercicecoach/exercicecoach.component';
+import { GestionaireComponent } from './components/gestionaire/gestionaire.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,11 @@ import { SportComponent } from './components/sport/sport.component';
     Register1Component,
     FooterComponent,
     TableComponent,
-    SportComponent
+    SportComponent,
+    ModalComponent,
+    ExerciceComponent,
+    ExercicecoachComponent,
+    GestionaireComponent
   ],
   imports: [
     BrowserModule,

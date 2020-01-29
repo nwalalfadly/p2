@@ -1,0 +1,15 @@
+i{
+    font-size:1.3rem;
+    background-image:linear-gradient(#46b6ee,#0093df);
+        border-radius:3px;
+}
+.fa-trash-alt{
+    color:red;
+}
+.fa-pencil{
+    color:#fff;
+}
+img{
+    margin-left: 25% !important;
+    width:50%;
+}
