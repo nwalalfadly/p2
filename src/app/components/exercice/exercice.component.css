@@ -1,0 +1,8 @@
+.custom-file-label::after{
+    background-image:linear-gradient(#46b6ee,#0093df);
+    color:#fff;
+
+}
+i{
+    border-radius:6px;
+}
