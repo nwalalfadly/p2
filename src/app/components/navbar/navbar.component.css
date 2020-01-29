@@ -1,0 +1,94 @@
+/* start navbar */
+.ftco-navbar-light, .scrolled, .awake {
+    margin-top: 0px;
+    transition: .3s all ease-out;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar > .container, .navbar > .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-toggler:hover, .navbar-toggler:focus {
+    text-decoration: none;
+}
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #909bac;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.ftco-navbar-light.scrolled .nav-item.active > a {
+    color: #0093df !important;
+}
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #0093df;
+}
+li {
+    display: list-item;
+}
+.ftco-navbar-light.scrolled.awake {
+    margin-top: 0px;
+    transition: .3s all ease-out;
+}
+
+.ftco-navbar-light.scrolled {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: -130px;
+    background: transparent !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+    background-color:#909bac !important;
+    z-index:99999;
+}
+
+/* end navbar */
+/* start media query */
+    
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}
+}
+@media (min-width: 992px){
+    .navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+        flex-wrap: nowrap;
+    }
+    }
+    @media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+@media (min-width: 992px){
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: rgba(255, 255, 255, 0.8);
+        letter-spacing: 1px;
+    }
+    }
+    @media (max-width: 991.98px){
+        .navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        }
+    /* end media query */

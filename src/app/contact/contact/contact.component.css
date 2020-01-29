@@ -1,0 +1,10 @@
+img{
+    width:100%;
+    height:98vh;
+    position: relative;
+    /* z-index: -999; */
+}
+.two{
+    position: absolute;
+    z-index: 900;
+}

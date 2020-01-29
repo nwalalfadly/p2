@@ -1,0 +1,20 @@
+
+h1{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.table .thead-light th {
+    background-color: #909bac !important;
+    border-color:#8690a0 !important;
+}
+tr:hover {
+    background-color: #909bac;
+    color: #fff;
+    box-shadow:2px 2px 2px grey;
+}
+th:hover{
+    border-color:#909bac !important;
+}

@@ -1,0 +1,30 @@
+
+
+
+/* media query */
+/* Small  */
+/* @media (min-width: 576px) { 
+    
+  } */
+ 
+  /* Medium  */
+ @media (min-width: 768px) { 
+    /* .body{
+        height: 69vh;
+    } */
+  }
+ 
+  /* Large  */
+ @media (min-width: 992px) { 
+ 
+  }
+ 
+  /* Extra large  */
+ @media (min-width: 1200px) { 
+ 
+  }
+
+
+
+
+
