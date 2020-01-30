@@ -1,0 +1,30 @@
+
+input, select, textarea{
+    box-shadow:1px 1px 1px #f4f5f7;
+}
+.rounded-circle{
+    width: 42%;
+    margin-left: 29%;
+}
+.modal-dialog .modal-content {
+    box-shadow: none !important;
+    box-shadow:1px 1px 1px #f4f5f7;
+}
+h4{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.custom-file-label{
+box-shadow:1px 1px 1px #f4f5f7;
+}
+.custom-file-label::after{
+    background-image:linear-gradient(#46b6ee,#0093df);
+    color:#fff;
+
+}
+.mt-40 .btn{
+    float:right;
+}

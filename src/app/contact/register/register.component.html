@@ -7,7 +7,7 @@
   aria-hidden="true">
   <div class="modal-dialog" role="document">
     <!--Content-->
-    <div class="modal-content form-elegant">
+    <div class="modal-content form-elegant px-4">
       <!--Header-->
      <div class="modal-header text-center">
         <h3 class="modal-title w-100 dark-grey-text font-weight-bold mt-2" id="myModalLabel"><strong>Sign in</strong></h3>
@@ -16,21 +16,57 @@
       <!--Body-->
       <div class="modal-body mx-4">
         <div class="form-row mb-4">
-            <div class="col">
-                <!-- First name -->
-                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
-            </div>
-            <div class="col">
-                <!-- Last name -->
-                <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
-            </div>
+                <!-- username -->
+                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="username">
         </div>     
         <!-- Age -->
         <input type="number" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Age">     
         <!-- Poids -->
         <input type="text" id="defaultRegisterFormPassword" class="form-control mb-4" placeholder="Poids" aria-describedby="defaultRegisterFormPasswordHelpBlock">      
+       
+          <!-- Poids idéal -->
+          <input type="text" id="defaultRegisterFormPassword" class="form-control mb-4" placeholder="Longueur" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+          <!-- start select -->
+          <select class="browser-default custom-select mb-4">
+            <option value="" disabled selected>Choisissez l'activité physique</option>
+            <option value="1" >Inactif</option>
+            <option value="2">Activité faible</option>
+            <option value="3">Soyez actif de temps en temps</option>
+            <option value="4">Très actif</option>
+          </select>
+          <!-- end select -->
+          <!-- start select -->
+          <select class="browser-default custom-select mb-2">
+            <option value="" disabled selected>Maladie</option>
+            <option value="1" >Diabète</option>
+            <option value="2">Maladie de pression</option>
+            <option value="3">Les maladies cardiaques</option>
+            <option value="4">Maladie de l'estomac</option>
+          </select>
+        <!-- end select -->
+         <!-- Group of material radios - option 1 -->
+      <!-- Material inline 1 -->
+      <div class="form-check form-check-inline">
+        <label class="form-check-label" for="materialInline2">sexe</label>
+      </div>
+      <!-- Material inline 2 -->
+      <div class="form-check form-check-inline">
+        <input type="radio" class="form-check-input" id="materialInline1" name="inlineMaterialRadiosExample">
+        <label class="form-check-label" for="materialInline1">Homme</label>
+      </div>
+      <!-- Material inline 3 -->
+      <div class="form-check form-check-inline">
+        <input type="radio" class="form-check-input" id="materialInline3" name="inlineMaterialRadiosExample">
+        <label class="form-check-label" for="materialInline3">Femme</label>
+      </div>
+      <!-- start image -->
+          <div class="custom-file my-2">
+            <input type="file" class="custom-file-input" id="customFileLangHTML">
+            <label class="custom-file-label" for="customFileLangHTML" data-browse="Uploade">Choisir image </label>
+            </div>
+      <!-- end image -->
         <div class="text-center my-3">
-          <a routerLink="/register1" class="primary-btn mt-40 infront"><button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Continuer</button></a>
+          <a routerLink="/login" class="primary-btn mt-40 infront"><button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Sign Up</button></a>
         </div>
         <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign in
           with:</p>

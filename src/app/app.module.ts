@@ -11,7 +11,7 @@ import { RegisterComponent } from './contact/register/register.component';
 import { ContactComponent } from './contact/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
-import { Register1Component } from './contact/register1/register1.component';
+// import { Register1Component } from './contact/register1/register1.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TableComponent } from './components/table/table.component';
 import { SportComponent } from './components/sport/sport.component';
@@ -19,6 +19,7 @@ import { ModalComponent } from './components/modal/modal.component';
 import { ExerciceComponent } from './components/exercice/exercice.component';
 import { ExercicecoachComponent } from './components/exercicecoach/exercicecoach.component';
 import { GestionaireComponent } from './components/gestionaire/gestionaire.component';
+import { MealsComponent } from './components/meals/meals.component';
 
 @NgModule({
   declarations: [
@@ -32,14 +33,15 @@ import { GestionaireComponent } from './components/gestionaire/gestionaire.compo
     ContactComponent,
     HomeComponent,
     AboutComponent,
-    Register1Component,
+    // Register1Component,
     FooterComponent,
     TableComponent,
     SportComponent,
     ModalComponent,
     ExerciceComponent,
     ExercicecoachComponent,
-    GestionaireComponent
+    GestionaireComponent,
+    MealsComponent
   ],
   imports: [
     BrowserModule,
