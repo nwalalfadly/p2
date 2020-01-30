@@ -16,11 +16,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { TableComponent } from './components/table/table.component';
 import { SportComponent } from './components/sport/sport.component';
 
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModalComponent } from './components/modal/modal.component';
 import { ExerciceComponent } from './components/exercice/exercice.component';
 import { ExercicecoachComponent } from './components/exercicecoach/exercicecoach.component';
 import { GestionaireComponent } from './components/gestionaire/gestionaire.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -47,7 +48,9 @@ import { GestionaireComponent } from './components/gestionaire/gestionaire.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
