@@ -2,103 +2,62 @@
 <!-- start form login-->
 <section class="">
   <!-- Material form login -->
-<div class="container mt-5 pt-5">
+<div class="container mt-2">
   <div class="row">
-    <div class="col-lg-6 col-md-6 col-xd-6">
+    <div class="col-lg-6 col-md-6 col-xd-6 mt-5">
 <!-- ********************************* -->
-<!--Modal: Login / Register Form--> 
-<div class="pb-5" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog cascading-modal" role="document">
-    <!--Content-->
-    <div class="modal-content">
-      <!--Modal cascading tabs-->
-      <div class="modal-c-tabs"> 
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-2" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active text-light" data-toggle="tab" href="#panel7" role="tab">
-              Spécialiste</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" data-toggle="tab" href="#panel8" role="tab">
-              Client</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link text-light" data-toggle="tab" href="#panel9" role="tab">
-                  Coach</a>
-            </li>
-        </ul>
-        <!-- Tab panels -->
-        <div class="tab-content">
-            <!-- start Specialiste -->
-          <!--Panel 7-->
-          <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
-<img src="assets\img\6.png" class="img-fluid img-responsive" alt="ph">
-            <!--Body-->
-            <div class="modal-body mb-1 px-5">
-<!-- E-mail -->
-<input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Email">    
-<!-- Password -->
-<input type="password" id="defaultRegisterFormPassword" class="form-control mb-4" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock"> 
-<div class="text-center my-3">
-                  <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Valider</button>
-                </div>
-          </div>
-            <!--Footer-->
-          </div>
-          <!--/.Panel 7-->
-<!-- end Specialiste -->
-<!-- start Client -->
-          <!--Panel 8-->
-          <div class="tab-pane fade" id="panel8" role="tabpanel">
-            <img src="assets\img\5.png" class="img-fluid img-responsive" alt="ph">
-              <!--Body-->
-              <div class="modal-body mb-1 px-5">
-  <!-- E-mail -->
-  <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Email">    
-  <!-- Password -->
-  <input type="password" id="defaultRegisterFormPassword" class="form-control mb-4" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
-  <div class="text-center my-3">
-   <a routerLink="/table"><button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Valider</button></a> 
-                  </div>
-            </div>
-              <!--Footer-->
-            </div>
-          <!--/.Panel 8-->
-          <!-- end client -->
-          <!-- start coach -->
-                <!--Panel 9-->
-                <div class="tab-pane fade" id="panel9" role="tabpanel">
-                  <img src="assets\img\4.png" class="img-fluid img-responsive rounded-circle" alt="ph">
-                  <!--Body-->
-             
-              <div class="modal-body mb-1 px-5">
-  <!-- E-mail -->
-  <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Email">    
-  <!-- Password -->
-  <input type="password" id="defaultRegisterFormPassword" class="form-control mb-4" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
-  <div class="text-center my-3">
-                    <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Valider</button>
-                  </div>
-            </div>
-              <!--Footer-->
-            </div>
-                <!--/.Panel 9-->
-          <!-- end coach -->
-        </div>
 
+<!--Modal: Login / Register Form--> 
+
+<!-- Material form subscription -->
+<form class="border border-light p-5 bg-white">
+
+  <p class="h4 mb-4 text-center">Login</p>
+
+  <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+  <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+  <div class="d-flex justify-content-between">
+      <div>
+          <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+              <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+          </div>
       </div>
-    </div>
-    <!--/.Content-->
+      <div>
+          <a href="">Forgot password?</a>
+      </div>
   </div>
-</div>
+
+  <button class="btn btn-info btn-block my-4 mx-auto" type="submit">Valider</button>
+
+  <div class="text-center">
+     
+
+      <p>or sign in with:</p>
+      <a type="button" class="light-blue-text mx-2">
+          <i class="fab fa-facebook-f"></i>
+      </a>
+      <a type="button" class="light-blue-text mx-2">
+          <i class="fab fa-twitter"></i>
+      </a>
+      <a type="button" class="light-blue-text mx-2">
+          <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a type="button" class="light-blue-text mx-2">
+          <i class="fab fa-github"></i>
+      </a>
+  </div>
+</form>
+<!-- Material form subscription -->
 <!--Modal: Login / Register Form-->
     
   </div>
 
 <!-- Material form login -->
-<div class="col-lg-6 col-md-6 col-xd-6 one">
-<img src="assets\img\feature-img.png" class="img-fluid img-responsive mt-5" alt="ph">
+<div class="col-lg-6 col-md-6 col-xd-6 mt-5 one">
+<img src="assets\img\13.png" class="img-fluid img-responsive mt-4" alt="ph">
 </div>
 
 </div>
@@ -110,4 +69,6 @@
 
 
 
+
+<!-- end section-table -->
 

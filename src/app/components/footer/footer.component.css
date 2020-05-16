@@ -1,4 +1,9 @@
 /* start footer */
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+  }
 .footer-section {
     padding-top: 70px;
     font-size: 1rem;
@@ -13,9 +18,10 @@
     margin-bottom: 30px;
 }
 img {
-    max-width: 100%;
+    /* max-width: 100%;
     vertical-align: middle;
-    border-style: none;
+    border-style: none; */
+    width:9rem !important;
 }
 li{
     text-decoration: none;

@@ -14,6 +14,7 @@ import { ExerciceComponent } from './components/exercice/exercice.component';
 import { ExercicecoachComponent } from './components/exercicecoach/exercicecoach.component';
 import { GestionaireComponent } from './components/gestionaire/gestionaire.component';
 import { MealsComponent } from './components/meals/meals.component';
+import { ErrorComponent } from './components/error/error.component';
 
 
 const routes: Routes = [
@@ -30,6 +31,7 @@ const routes: Routes = [
 {path:"exercicecoach", component: ExercicecoachComponent},
 {path:"gestionaire", component: GestionaireComponent},
 {path:"meals", component: MealsComponent},
+{path:"**", component: ErrorComponent},
 ];
 
 @NgModule({

@@ -1,56 +1,11 @@
-/* .body{
-    background-image: url('src/assets/img/banner-bg.jpg');
-    width:100%;
-    height:100vh;
-    margin-top: -5rem;
-    position: relative;
-    z-index: -999;
-    background-position: center;
-    background-size: cover;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          font-family: "Poppins", sans-serif;
 }
-img{
-     height: 31rem;
-    margin-top: 9rem; 
-    max-width: 100%;
-    /* height: auto; */
-/* }
-h1{
-    font-size: 45px;
-    font-weight: 120;
-    margin-top: 252px;
-} 
-span{
-    color:#0093df;
-}   */
-/******************* media query *****************/
- /* Small  */
-  /* @media (min-width: 576px) { 
-    img{
-     
-       }
-     } */
-   /* Medium  */
-/* @media (min-width: 768px) { 
-    img{
-        margin-top: 3rem;
-       }
-     h1{
-        margin-top: 165px;
-       }
-      } */
-      /* Large  */
-   /* @media (min-width: 992px) { 
-
-  }  */
- /* Extra large  */
-  /* @media (min-width: 1200px) { 
-
- } */
-
  /* start header */
 section{
     color: #777777;
-    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.625em;
@@ -100,7 +55,6 @@ section{
   font-size: 60px;
   font-weight: 100;
   margin-top: 10px;
-  font-family: "Roboto", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;

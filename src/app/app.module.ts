@@ -20,7 +20,11 @@ import { ExerciceComponent } from './components/exercice/exercice.component';
 import { ExercicecoachComponent } from './components/exercicecoach/exercicecoach.component';
 import { GestionaireComponent } from './components/gestionaire/gestionaire.component';
 import { MealsComponent } from './components/meals/meals.component';
-
+import { ErrorComponent } from './components/error/error.component';
+// HttpClient module for RESTful API
+import { HttpClientModule } from '@angular/common/http';
+// Forms module
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,11 +45,14 @@ import { MealsComponent } from './components/meals/meals.component';
     ExerciceComponent,
     ExercicecoachComponent,
     GestionaireComponent,
-    MealsComponent
+    MealsComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

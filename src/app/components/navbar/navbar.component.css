@@ -1,7 +1,15 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+  }
 /* start navbar */
 .ftco-navbar-light, .scrolled, .awake {
     margin-top: 0px;
     transition: .3s all ease-out;
+}
+.img{
+    width:8rem !important;
 }
 .container {
     width: 100%;

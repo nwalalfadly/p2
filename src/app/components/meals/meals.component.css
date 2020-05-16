@@ -1,4 +1,8 @@
-
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+  }
 input, select, textarea{
     box-shadow:1px 1px 1px #f4f5f7;
 }
@@ -23,7 +27,6 @@ box-shadow:1px 1px 1px #f4f5f7;
 .custom-file-label::after{
     background-image:linear-gradient(#46b6ee,#0093df);
     color:#fff;
-
 }
 .mt-40 .btn{
     float:right;

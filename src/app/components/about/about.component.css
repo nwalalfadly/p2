@@ -1,4 +1,8 @@
-
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+  }
  /* start section-About */
 .section-gap {
     padding: 155px 0;
@@ -30,7 +34,6 @@ mb-10 {
 }
 .single-offer h4 {
     font-size: 18px;
-    font-family: "Poppins", sans-serif;
     color: #222222;
     line-height: 1.2em !important;
     margin-bottom: 0;
@@ -53,7 +56,6 @@ p {
     padding-left: 15px;
     margin-top: 1rem;
 }
-
 /* end section-About  */
 /* start section-Services  */
 .heading-section .subheading {
@@ -149,13 +151,4 @@ margin-inline-end: 0px;
     max-width: 960px;
 }
 }
- /* @media (min-width: 768px){
-.container {
-    max-width: 720px;
-}
-} */
- /* @media (min-width: 576px){ 
-.container {
-    max-width: 540px;
-}
-}  */
+ 

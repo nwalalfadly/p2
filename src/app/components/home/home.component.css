@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          font-family: "Poppins", sans-serif;
+}
 .body{
     background-image: url('src/assets/img/banner-bg.jpg');
     width:100%;
@@ -10,7 +15,6 @@ img{
      height: 31rem;
     margin-top: 4rem; 
     max-width: 100%;
-    /* height: auto; */
 }
 h1{
     font-size: 45px;
@@ -29,12 +33,7 @@ span{
      }
    /* Medium  */
  @media (min-width: 768px) { 
-    /* img{
-        margin-top: 3rem;
-       }
-     h1{
-        margin-top: 165px;
-       } */
+ 
       }
       /* Large  */
   @media (min-width: 992px) { 

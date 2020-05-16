@@ -1,0 +1,18 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+  }
+ .card-wrapper{
+    box-shadow: 0px 3px 10px 0px #2B92DF !important;  
+  }
+  img{
+    height: 15rem !important;
+  }
+  h4{
+    font-size: 22px;
+    color: #000 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
